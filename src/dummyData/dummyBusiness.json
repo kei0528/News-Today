@@ -1,0 +1,206 @@
+{
+  "status": "ok",
+  "totalResults": 70,
+  "articles": [
+    {
+      "source": { "id": "spiegel-online", "name": "Spiegel Online" },
+      "author": "DER SPIEGEL",
+      "title": "Finanzaufsicht: Bafin verschärft Geldwäsche-Aufsicht bei der Deutschen Bank - DER SPIEGEL",
+      "description": "Seit 2018 kontrolliert die Finanzaufsicht Bafin Maßnahmen gegen Geldwäsche bei der Deutschen Bank. Nachdem es um das ehemalige Skandal-Institut zuletzt ruhiger geworden war, fordert die Bafin nun Verschärfungen.",
+      "url": "https://www.spiegel.de/wirtschaft/unternehmen/deutsche-bank-bafin-verschaerft-geldwaesche-aufsichtsmassnahmen-a-efd77dba-8410-4a5c-945a-19bf4d95e33c",
+      "urlToImage": "https://cdn.prod.www.spiegel.de/images/5c75efd2-ee72-4e07-9b71-284626ffd0a0_w1280_r1.77_fpx41.51_fpy50.jpg",
+      "publishedAt": "2021-04-30T18:13:35Z",
+      "content": null
+    },
+    {
+      "source": { "id": null, "name": "Faz.net" },
+      "author": "Christoph Hein",
+      "title": "Singapur will Schiffe über Drohnen versorgen - FAZ - Frankfurter Allgemeine Zeitung",
+      "description": "Schiffe auf offener See werden bisher mit Booten beliefert. Dabei wären Fluggeräte viel praktischer. Der zweitgrößte Hafen der Welt hat nun ein Flugfeld über dem Meer eröffnet. Auch ein deutsches Unternehmen ist bei den Tests dabei.",
+      "url": "https://www.faz.net/aktuell/wirtschaft/unternehmen/singapur-will-schiffe-ueber-drohnen-versorgen-17303301.html",
+      "urlToImage": "https://media0.faz.net/ppmedia/aktuell/919357330/1.7303348/facebook_teaser_fplus/landeplatz-mit-meerblick.jpg",
+      "publishedAt": "2021-04-30T17:55:00Z",
+      "content": "Der zweitgrößte Hafen der Welt wird auch immer mehr zum Testfeld für Zukunftstechnologien. Singapur hat nun einen Landeplatz und ein Flugfeld über der offenen See für Drohnen eröffnet, die auf Dauer … [+514 chars]"
+    },
+    {
+      "source": { "id": "spiegel-online", "name": "Spiegel Online" },
+      "author": "DER SPIEGEL",
+      "title": "US-Konzern: Intel will acht Milliarden Euro für Chipfabrik in Europa - DER SPIEGEL",
+      "description": "Die Autobranche leidet unter der Chipkrise. Um künftig unabhängiger vom asiatischen Markt zu sein, will Intel eine Chipfabrik in Europa bauen. Dazu sollen aber auch staatliche Mittel fließen.",
+      "url": "https://www.spiegel.de/wirtschaft/unternehmen/chipkrise-intel-will-acht-milliarden-euro-fuer-chipfabrik-in-europa-a-e4c2d617-bee7-4904-9e55-53d25bd8df8d",
+      "urlToImage": "https://cdn.prod.www.spiegel.de/images/769899ae-685b-4c4b-86b3-a8ebc56e1779_w1280_r1.77_fpx44.99_fpy50.jpg",
+      "publishedAt": "2021-04-30T17:20:25Z",
+      "content": null
+    },
+    {
+      "source": { "id": null, "name": "tagesschau.de" },
+      "author": "tagesschau",
+      "title": "Keine neuen Impulse: DAX schließt knapp im Minus | tagesschau.de - tagesschau.de",
+      "description": "Kursgewinne zum Wochenschluss Fehlanzeige - der DAX kam am Freitag nicht über seinen Vortagesstand hinaus. Nachdem die US-Börsen an der Wall Street gestartet waren, ging es auch in Frankfurt leicht bergab.",
+      "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-jones-nasdaq-113.html",
+      "urlToImage": "https://www.tagesschau.de/multimedia/bilder/boerse-125~_v-videowebm.jpg",
+      "publishedAt": "2021-04-30T16:14:00Z",
+      "content": "Stand: 30.04.2021 18:14 Uhr\r\nKursgewinne zum Wochenschluss Fehlanzeige - der DAX kam am Freitag nicht über seinen Vortagesstand hinaus. Nachdem die US-Börsen an der Wall Street gestartet waren, ging … [+9241 chars]"
+    },
+    {
+      "source": { "id": null, "name": "N-tv.de" },
+      "author": "n-tv NACHRICHTEN",
+      "title": "Hilfe von Mobileye und Nvidia:VW entwickelt Computerchips künftig selbst - n-tv NACHRICHTEN",
+      "description": "Innovative Software wird bei der Entwicklung von selbstfahrenden Autos immer wichtiger - doch hierzu braucht es vor allem leistungsstarke Chips. Volkswagen hängt der Konkurrenz aus den USA bei der Entwicklung von Halbleitern hinterher. Mit der Hilfe von Koope…",
+      "url": "https://www.n-tv.de/wirtschaft/VW-entwickelt-Computerchips-kuenftig-selbst-article22525786.html",
+      "urlToImage": "https://bilder4.n-tv.de/img/incoming/crop22525815/6871321853-cImg_16_9-w1200/214910417.jpg",
+      "publishedAt": "2021-04-30T15:34:41Z",
+      "content": "Innovative Software wird bei der Entwicklung von selbstfahrenden Autos immer wichtiger - doch hierzu braucht es vor allem leistungsstarke Chips. Volkswagen hängt der Konkurrenz aus den USA bei der En… [+3994 chars]"
+    },
+    {
+      "source": { "id": "die-zeit", "name": "Die Zeit" },
+      "author": null,
+      "title": "Elektroautos: Tesla scheitert mit Klage um Umweltprämie - ZEIT ONLINE",
+      "description": "",
+      "url": "https://www.zeit.de/zustimmung?url=https:%2F%2Fwww.zeit.de%2Fmobilitaet%2F2021-04%2Ftesla-umweltpraemie-elektroautos-rechtsstreit-verwaltungsgericht-frankfurt-bafa",
+      "urlToImage": null,
+      "publishedAt": "2021-04-30T14:33:20Z",
+      "content": "Für die Nutzung mit Werbung:\r\nWir erheben personenbezogene Daten und übermitteln diese auch an Drittanbieter\r\n, die uns helfen, unser Webangebot zu verbessern und zu finanzieren. Eine Verarbeitung de… [+982 chars]"
+    },
+    {
+      "source": { "id": null, "name": "CHIP Online Deutschland" },
+      "author": "Franziska Albrecht",
+      "title": "Hyundai IONIQ 5: Videos zeigen das Ladewunder völlig zweckentfremdet - EFAHRER.com",
+      "description": "Mit dem IONIQ 5 will Hyundai in puncto Elektroautoproduktion richtig Strom geben. Denn der neue Stromer ist das erste E-Auto des koreanischen Autoherstellers, der auf einer reinen Elektroplattform basiert. Dafür rühren die Koreaner ordentlich die Werbetrommel…",
+      "url": "https://efahrer.chip.de/news/hyundai-ioniq-5-videos-zeigen-das-ladewunder-voellig-zweckentfremdet_104781",
+      "urlToImage": "https://im-efahrer.chip.de/files/c84cefb1-2950-42f6-af7b-2d094ccf2ab7.jpg?imPolicy=IfOrientation&width=1200&height=630&color=%23000000&hash=cfb9c02224159c509874fd0905a1866b39bccdb2af652ae248d4d71fc2e81e3d",
+      "publishedAt": "2021-04-30T14:32:16Z",
+      "content": "Mit dem IONIQ 5 will Hyundai in puncto Elektroautoproduktion richtig Strom geben. Denn der neue Stromer ist das erste E-Auto des koreanischen Autoherstellers, der auf einer reinen Elektroplattform ba… [+3491 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Express.de" },
+      "author": null,
+      "title": "Coca-Cola und Topo Chico: Neues Produkt erstmals in Deutschland - Express.de",
+      "description": "Coca Cola bringt Topo Chico Hard Seltzer nach Deutschland und listet erstmals Alkohol in der Firmengeschichte.",
+      "url": "https://www.express.de/ratgeber/verbraucher/ueberraschung-coca-cola-bricht-tabu-und-bringt-alkoholisches-getraenk-nach-deutschland-38342256",
+      "urlToImage": "https://www.express.de/image/38342590/2x1/940/470/624a750c4854b0ef9b6dd41d19db3a1d/Ys/topo-chico-werbung-insta-vienna.jpg",
+      "publishedAt": "2021-04-30T14:21:25Z",
+      "content": "Berlin/Köln -\r\nDas gab es in der über 130-jährigen Firmengeschichte des US-Giganten Coca-Cola noch nie: Die Marke bringt jetzt ein alkoholisches Getränk auf den Markt. Und will damit ein völlig neues… [+3286 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Finanzen.net" },
+      "author": "finanzen.net Redaktion",
+      "title": "Börsendebüt: SYNLAB-Aktie schießt zweistellig hoch - SYNLAB-Chef ist optimistisch - finanzen.net",
+      "description": "Die Aktien von Europas größter Laborkette SYNLAB können bei ihrem Debüt an der Frankfurter Börse kräftig zulegen.",
+      "url": "https://www.finanzen.net/nachricht/aktien/milliarden-bewertung-boersendebuet-synlab-aktie-schiesst-zweistellig-hoch-synlab-chef-ist-optimistisch-10080945",
+      "urlToImage": "https://images.finanzen.net/mediacenter/unsortiert/ipo-maximp-shutterstock-660-798.jpg",
+      "publishedAt": "2021-04-30T14:05:00Z",
+      "content": "Der erste Kurs wurde am Freitag mit 18,00 Euro festgestellt. Das entsprach dem Ausgabepreis, der am unteren Ende der Spanne festgelegt worden war. \r\nDer Chef des Münchner Labordienstleisters SYNLAB z… [+4341 chars]"
+    },
+    {
+      "source": { "id": "google-news", "name": "Google News" },
+      "author": null,
+      "title": "Vorfahrt für Tesla? - Wie Elon Musk Behörden unter Druck setzt - ZDFheute Nachrichten",
+      "description": null,
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9ZEFuSFpkOTVtQ3PSAQA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2021-04-30T14:00:13Z",
+      "content": null
+    },
+    {
+      "source": { "id": null, "name": "t-online.de" },
+      "author": "AFP",
+      "title": "Merck: Belén Garijo führt als erste Frau alleine ein Dax-Unternehmen - t-online.de",
+      "description": "Der Chemie- und Pharmakonzern Merck ist das erste Dax-Unternehmen, in dem eine Frau die alleinige Spitze übernimmt. Die Spanierin Belén Garijo folgt am Samstag auf Stefan Oschmann.",
+      "url": "https://www.t-online.de/finanzen/news/unternehmen-verbraucher/id_89950226/merck-belen-garijo-fuehrt-als-erste-frau-alleine-ein-dax-unternehmen.html",
+      "urlToImage": "https://bilder.t-online.de/b/89/95/03/68/id_89950368/tid_da/belen-garijo-archivbild-die-60-jaehrige-ist-die-erste-alleinige-chefin-eines-dax-unternehmens-.jpg",
+      "publishedAt": "2021-04-30T13:39:55Z",
+      "content": "Der Chemie- und Pharmakonzern Merck ist das erste Dax-Unternehmen, in dem eine Frau die alleinige Spitze übernimmt. Die Spanierin Belén Garijo folgt am Samstag auf Stefan Oschmann.\r\nAls erste alleini… [+883 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Golem.de" },
+      "author": null,
+      "title": "Besitzer im Gefängnis: Unbekannte räumen beschlagnahmte Bitcoin-Wallet leer - Golem.de - Golem.de",
+      "description": null,
+      "url": "https://www.golem.de/sonstiges/zustimmung/auswahl.html?from=https:%2F%2Fwww.golem.de%2Fnews%2Fbesitzer-im-gefaengnis-unbekannte-raeumen-beschlagnahmte-bitcoin-wallet-leer-2104-156173.html",
+      "urlToImage": null,
+      "publishedAt": "2021-04-30T13:34:01Z",
+      "content": "Besuchen Sie Golem.de wie gewohnt mit Werbung und Tracking, indem Sie der Nutzung aller Cookies zustimmen.\r\n Details zum Tracking finden Sie im Privacy Center.\r\nSkript wurde nicht geladen. Informatio… [+575 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Finanzen.net" },
+      "author": "finanzen.net Redaktion",
+      "title": "Amazon-Aktie im Plus: Amazon überzeugt mit Umsatz- und Gewinnsprung - finanzen.net",
+      "description": "Der Internetriese Amazon hat seine Bücher geöffnet und über die Geschäftsentwicklung im ersten Quartal berichtet.",
+      "url": "https://www.finanzen.net/nachricht/aktien/bilanz-vorgelegt-amazon-aktie-im-plus-amazon-ueberzeugt-mit-umsatz-und-gewinnsprung-10062436",
+      "urlToImage": "https://images.finanzen.net/mediacenter/unsortiert/amazon-hadrian-660-2970.jpg",
+      "publishedAt": "2021-04-30T13:32:00Z",
+      "content": "Der Internet-Shoppingboom und florierende Cloud-Dienste haben den weltgrößten Online-Händler Amazon zu Jahresbeginn beflügelt. Im ersten Quartal nahm der Umsatz im Jahresvergleich um 44 Prozent auf 1… [+2337 chars]"
+    },
+    {
+      "source": { "id": null, "name": "N-tv.de" },
+      "author": "n-tv NACHRICHTEN",
+      "title": "Streit um Lieferungen:Astrazeneca: \"Haben nie zu viel versprochen\" - n-tv NACHRICHTEN",
+      "description": "Der Corona-Impfstoff von Astrazeneca ist der preiswerteste der bislang von der EU zugelassenen Vakzine. Allerdings gibt es mit keinem anderen Hersteller derart viele Differenzen. Das Unternehmen weist die Anschuldigungen nun zurück.",
+      "url": "https://www.n-tv.de/wirtschaft/Astrazeneca-Haben-nie-zu-viel-versprochen-article22525626.html",
+      "urlToImage": "https://bilder1.n-tv.de/img/incoming/crop22525632/7161321366-cImg_16_9-w1200/237647548.jpg",
+      "publishedAt": "2021-04-30T13:30:05Z",
+      "content": "Der Corona-Impfstoff von Astrazeneca ist der preiswerteste der bislang von der EU zugelassenen Vakzine. Allerdings gibt es mit keinem anderen Hersteller derart viele Differenzen. Das Unternehmen weis… [+3458 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Derwesten.de" },
+      "author": "Redaktion",
+      "title": "Aldi bietet Gasgrill an – Kunden sind wütend: „Frechheit!“ - Der Westen",
+      "description": "Aldi hatte seinen Kunden online einen Gasgrill angeboten – und der war ziemlich begehrt! Viele Kunden waren aber enttäuscht... Warum, das kannst du hier nachlesen.",
+      "url": "https://www.derwesten.de/panorama/vermischtes/aldi-gasgrill-facebook-kunden-online-shop-website-homepage-sortiment-produkt-angebot-id232176369.html",
+      "urlToImage": "https://img.derwesten.de/img/vermischtes/crop232179675/3582608148-w820-cv16_9-q85/Gasgrill.jpg",
+      "publishedAt": "2021-04-30T13:10:00Z",
+      "content": "Der Sommer naht und die Lust aufs Grillen steigt immer mehr. Dem ist sich auch Aldi bewusst und bot in seinem Online-Shop einen Gasgrill an. Doch nach dem Ansturm auf das Produkt folgte bei vielen Ku… [+2866 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Faz.net" },
+      "author": "Lukas Weber",
+      "title": "Willys kleiner Enkel - FAZ - Frankfurter Allgemeine Zeitung",
+      "description": "Ein echter Jeep aus Italien? Das geht, der kleine Renegade glänzt mit viel Platz, reicher Ausstattung und vielen anderen Talenten. Als Plug-in-Hybrid ist er jetzt sogar auf der Höhe der Zeit.",
+      "url": "https://www.faz.net/aktuell/technik-motor/motor/fahrberichte/fahrbericht-jeep-renegade-s-phev-at-4xe-17311262.html",
+      "urlToImage": "https://media0.faz.net/ppmedia/aktuell/technik-motor/1400633726/1.7319778/facebook_teaser/jeep-renegade.jpg",
+      "publishedAt": "2021-04-30T13:00:00Z",
+      "content": "Das haben Geländewagen mit Papiertaschentüchern gemein, ein Markenname kann zum Gattungsbegriff werden. Da geht es Jeep wie Tempo, obwohl natürlich jeder weiß, dass zum Beispiel ein Suzuki Jimny nich… [+2960 chars]"
+    },
+    {
+      "source": { "id": "bild", "name": "Bild" },
+      "author": "Bild.de",
+      "title": "Prozess in Düsseldorf: Mutmaßliche ISIS-Terroristin vor Gericht - BILD",
+      "description": "Freiwillig soll sich die junge Mutter aus Essen mit vier kleinen Kindern den ISIS-Terroristen angeschlossen haben. Prozessbeginn.",
+      "url": "https://www.bild.de/regional/duesseldorf/duesseldorf-aktuell/prozess-in-duesseldorf-mutmassliche-isis-terroristin-vor-gericht-76245836.bild.html",
+      "urlToImage": "https://bilder.bild.de/fotos/prozess-in-duesseldorf-mutmassliche-isis-terroristin-vor-gericht-540ff85daed2404f8c9b50aed068c86d-76246252/Bild/6.bild.jpg",
+      "publishedAt": "2021-04-30T12:44:57Z",
+      "content": "Düsseldorf Wer zieht mit seinen vier kleinen Kindern freiwillig in ein Kriegsgebiet und schließt sich den mordenden Verbrechern des selbst ernannten Islamischen Staat (ISIS) an? \r\nIm Hochsicherheitsg… [+1677 chars]"
+    },
+    {
+      "source": { "id": null, "name": "N-tv.de" },
+      "author": "n-tv NACHRICHTEN",
+      "title": "Tops und Flops:Die ADAC Pannenstatistik 2020 - n-tv NACHRICHTEN",
+      "description": "Einmal im Jahr listet der ADAC, gemessen nach dem Einsatz seiner \"Gelben Engel\" die anfälligsten und die unproblematischsten Modelle auf.  Die daraus entstehende Statistik erlaubt zwar kein Qualitätsurteil, zeigt aber durchaus Tendenzen auf.",
+      "url": "https://www.n-tv.de/auto/Die-ADAC-Pannenstatistik-2020-article22523313.html",
+      "urlToImage": "https://bilder3.n-tv.de/img/incoming/crop22523322/6741322904-cImg_16_9-w1200/222954942.jpg",
+      "publishedAt": "2021-04-30T12:41:42Z",
+      "content": "Einmal im Jahr listet der ADAC, gemessen nach dem Einsatz seiner \"Gelben Engel\" die anfälligsten und die unproblematischsten Modelle auf. Die daraus entstehende Statistik erlaubt zwar kein Qualitätsu… [+3784 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Faz.net" },
+      "author": "Alexander Armbruster",
+      "title": "Die Pandemie durchschauen - FAZ - Frankfurter Allgemeine Zeitung",
+      "description": "Noch hält das Virus den Alltag kleinteilig im Griff. Doch das Ende der Krise einfach abzuwarten, reicht nicht. Gerade in Deutschland gibt es erfreuliche Beispiele, die zeigen, wie es besser geht.",
+      "url": "https://www.faz.net/aktuell/wirtschaft/digitec/amazon-co-das-ende-der-corona-krise-abzuwarten-reicht-nicht-17319740.html",
+      "urlToImage": "https://media0.faz.net/ppmedia/aktuell/wirtschaft/1943762341/1.7320216/facebook_teaser/amazon-testet-lieferroboter-in.jpg",
+      "publishedAt": "2021-04-30T12:15:00Z",
+      "content": "Als Jeff Bezos einmal danach gefragt wurde, was unternehmerischen Erfolg in einer Zeit großen Wandels ausmacht, antwortete er zur Überraschung seiner Zuhörer so: Wichtig sei nicht nur darüber nachzud… [+3145 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Finanzen.net" },
+      "author": "finanzen.net Redaktion",
+      "title": "Analyst: Darum wird der Bullenmarkt ein böses Ende nehmen - finanzen.net",
+      "description": "Der US-Aktienmarkt eilt von Rekord zu Rekord. Doch für Analyst Lance Roberts steht fest, dass dieser Bullenmarkt ein böses Ende finden wird.",
+      "url": "https://www.finanzen.net/nachricht/aktien/hohe-bewertungen-analyst-darum-wird-der-bullenmarkt-ein-boeses-ende-nehmen-10059293",
+      "urlToImage": "https://images.finanzen.net/mediacenter/ratgeber/artikelbilder/boersencrash-boersenkrise-coronacrash-coronakrise-001-660.jpg",
+      "publishedAt": "2021-04-30T12:06:00Z",
+      "content": " Hohe Bewertungen am Aktienmarkt FOMO der Investoren Lance Roberts erwartet böses Ende für den Bullenmarkt\r\nDie derzeitige Rally an den US-Börsen wird laut Lance Roberts hauptsächlich von der enor… [+2966 chars]"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+$black: #010101;
+$news-blue: #489dff;
+$light-grey: #f5f5f5;
+$font-size-small: clamp(0.75rem, calc(3vw + 0.03rem), 0.85rem);
+$font-size-medium: clamp(0.95rem, calc(3vw + 0.45rem), 1.25rem);
+$font-size-large: clamp(1.3rem, calc(3vw + 0.6rem), 1.75rem);
+
+@mixin top-headline-h2 {
+  width: fit-content;
+  position: relative;
+  cursor: pointer;
+}
+
+@mixin top-headline-h2-after {
+  position: absolute;
+  content: "";
+  right: -1rem;
+  top: 0.5rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-top: 4px solid $news-blue;
+  border-right: 4px solid $news-blue;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

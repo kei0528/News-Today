@@ -1,0 +1,365 @@
+// smartphone, tablet
+.sub-main-container-genre {
+  .search-sort {
+    padding: 0 1.3rem 0 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-nav {
+      height: 100%;
+      &-icon {
+        width: 2rem;
+        height: 1.6rem;
+        border: none;
+        border-radius: 4px;
+        outline: none;
+        cursor: pointer;
+        img {
+          width: 0.8rem;
+          height: 0.8rem;
+        }
+      }
+      &-form {
+        height: calc(100vh - 47px);
+        width: 100vw;
+        position: fixed;
+        bottom: -100vh;
+        left: 0;
+        backdrop-filter: blur(2px);
+        &-shadow {
+          height: 100vh;
+          width: 100vw;
+          position: absolute;
+          bottom: 0;
+          background-color: rgba(0, 0, 0, 0.288);
+          opacity: 0;
+          z-index: 0;
+        }
+        &-inputs {
+          width: 100vw;
+          padding: 1.3rem 0 0 0;
+          overflow: scroll;
+          position: absolute;
+          bottom: -2px;
+          background-color: rgb(255, 255, 255);
+          box-shadow: 0px -8px 20px 8px #4d4d4d24;
+          > div {
+            margin-bottom: 1.3rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            > label {
+              font-weight: 300;
+              padding-bottom: 4px;
+              font-size: 1.1rem;
+            }
+            #sortCalendar,
+            > select {
+              width: 80%;
+              padding: 0.1rem;
+              border: unset;
+              background-color: $light-grey;
+              font-size: 1.2rem;
+              text-align: center;
+              text-align-last: center;
+            }
+            #sortCalendar {
+              letter-spacing: 1px;
+            }
+          }
+          .sort-submit {
+            width: 100vw;
+            padding: 0.6rem 0;
+            font-size: 1.25rem;
+            color: white;
+            background-color: $news-blue;
+            cursor: pointer;
+          }
+        }
+      }
+      &-form-is-active {
+        transition: all ease-in 0.2s;
+        top: unset;
+        bottom: 0;
+        .search-sort-nav-form-shadow {
+          transition: opacity 0.2s 0.2s;
+          opacity: 1;
+        }
+      }
+      &-form-is-not-active {
+        transition-duration: 0.2s;
+        bottom: -100vh;
+        .search-sort-nav-form-shadow {
+          opacity: 0;
+        }
+      }
+    }
+  }
+  @keyframes button-dots {
+    0% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .load-more-button {
+    width: 100%;
+    padding: 0.65rem 1.3rem;
+    margin: 1.3rem 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    background-color: $light-grey;
+    cursor: pointer;
+    &:hover {
+      background-color: lighten($light-grey, 1.5);
+    }
+    > div {
+      height: 1.15rem;
+      width: 1.3rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      > div {
+        width: 0.25rem;
+        height: 0.25rem;
+        border-radius: 50%;
+        background-color: black;
+        opacity: 0;
+        animation: button-dots 2s infinite alternate;
+        &:first-child {
+          animation-delay: -0.3s;
+        }
+        &:nth-child(2)  {
+          animation-delay: -0.1s;
+        }
+        &:last-child {
+          animation-delay: 0.1s;
+        }
+      }
+    }
+  }
+}
+
+.no-news-found {
+  display: inline-block;
+  padding: 1.3rem 0.75rem;
+}
+
+@media (max-width: 767px) and (max-height: 350px) {
+  .sub-main-container-genre {
+    .search-sort {
+      &-nav {
+        &-form {
+          height: calc(100vh - 45px - 1.3rem);
+          &-shadow {
+            width: 1.3rem;
+            height: 1.3rem;
+            position: absolute;
+            top: -0.25rem;
+            right: 1rem;
+            background-color: unset;
+            z-index: 1;
+            &::before,
+            &::after {
+              position: absolute;
+              content: "";
+              width: 100%;
+              height: 2px;
+              background-color: $black;
+            }
+            &::before {
+              transform: rotate(45deg);
+            }
+            &::after {
+              transform: rotate(-45deg);
+            }
+          }
+          &-inputs {
+            height: 100%;
+            padding: 1.3rem 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            overflow: scroll;
+            > div {
+              overflow: scroll;
+            }
+            .sort-submit {
+              position: absolute;
+              bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) and (max-height: 350px) {
+  .sub-main-container-genre {
+    .search-sort {
+      &-nav {
+        &-form {
+          height: calc(100vh - 67px - 1.3rem);
+        }
+      }
+    }
+  }
+}
+
+@media (min-height: 850px) and (max-width: 768px) {
+  .sub-main-container-genre {
+    .search-sort {
+      &-nav {
+        &-form {
+          &-inputs {
+            height: min-content;
+            width: 90vw;
+            border-radius: 3px;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            overflow: hidden;
+            > div {
+              input,
+              #sortCalendar {
+                border-radius: 3px;
+              }
+            }
+            .sort-submit {
+              width: 90vw;
+            }
+          }
+        }
+        &-form-is-active {
+          transition-duration: 0s;
+          .search-sort-nav-form-shadow {
+            transition: opacity 0s 0s;
+          }
+        }
+        &-form-is-not-active {
+          transition-duration: 0s;
+          .search-sort-nav-form-shadow {
+            transition: opacity 0s 0s;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 480px) {
+  .sub-main-container-genre {
+    .search-sort {
+      justify-content: flex-start;
+      nav {
+        margin-left: 3.9rem;
+      }
+    }
+  }
+}
+
+// desktop
+
+@media (min-width: 768px) {
+  .sub-main-container-genre {
+    .search-sort {
+      &-nav {
+        &-form {
+          height: 100vh;
+          &-inputs {
+            width: 60vw;
+            margin: auto 0;
+            border-radius: 3px;
+            top: 0;
+            bottom: 0;
+            height: min-content;
+            right: 3vw;
+            top: 0;
+            bottom: 0;
+            overflow: hidden;
+            > div {
+              select,
+              #sortCalendar {
+                width: 70%;
+                border-radius: 3px;
+              }
+            }
+            .sort-submit {
+              width: 100%;
+            }
+          }
+        }
+        .search-sort-nav-form-is-active {
+          transition: unset;
+          .search-sort-nav-form-shadow {
+            transition: unset;
+          }
+        }
+        .search-sort-nav-form-is-not-active {
+          transition: unset;
+          .search-sort-nav-form-shadow {
+            transition: unset;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-height: 280px) {
+  .sub-main-container-genre {
+    .search-sort {
+      &-nav {
+        &-form {
+          overflow: scroll;
+          &-shadow {
+            min-height: calc(150px + 1.3rem + 43px);
+            bottom: unset;
+          }
+          &-inputs {
+            height: calc(100vh - 1.3rem - 43px);
+            min-height: 150px;
+            padding: unset;
+            padding: 1.3rem 0 43px 0;
+            margin: unset;
+            top: unset;
+            bottom: unset;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            overflow: scroll;
+            > div {
+            }
+            .sort-submit {
+              position: absolute;
+              bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .sub-main-container-genre {
+    .search-sort {
+      &-nav {
+        &-form {
+          &-inputs {
+            width: 40vw;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,153 @@
+@import "../_config.scss";
+
+@mixin back-to-list-icon-edge($top, $right, $bottom, $left) {
+  content: "";
+  position: absolute;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+// main-container
+.sub-main {
+  transition-duration: 0.2s;
+  width: 100vw;
+  height: calc(100vh - 45px);
+  position: fixed;
+  top: calc(100% + 100vh);
+  overflow: hidden;
+  // back-icon
+  &-nav {
+    height: 2.2rem;
+    display: flex;
+    align-items: center;
+    :hover {
+      background: white;
+    }
+    button {
+      width: 100%;
+      padding-bottom: 0.1rem;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: $light-grey;
+      box-shadow: inset 6px -2px 15px -5px #0000002b;
+      cursor: pointer;
+      img {
+        width: 19px;
+      }
+    }
+  }
+  // back-icon for news selected from news-list
+  .list-genre-nav {
+    background: $news-blue;
+    button {
+      background: unset;
+      img {
+        filter: invert(100%);
+      }
+    }
+    :hover {
+      background: lighten($news-blue, 10%);
+    }
+  }
+  // container
+  &-container {
+    width: calc(100vw - 2.6rem);
+    height: calc(100vh - 47px - 32px - 2.6rem);
+    margin: 0;
+    padding: 1.7rem 1.3rem;
+    overflow: scroll;
+    background-color: white;
+  }
+}
+.sub-main-is-active {
+  transition-duration: 0.2s;
+  top: 47px;
+}
+
+// tablet
+@media (min-width: 480px) {
+  .sub-main {
+    &-container {
+      height: calc(100vh - 66px - 32px - 5.2rem);
+      width: calc(100vw - 16vw);
+      padding: 2.6rem 8vw;
+    }
+  }
+  .sub-main-is-active {
+    top: 67px;
+  }
+}
+// desktop
+@media (min-width: 768px) {
+  .sub-main {
+    height: 100vh;
+    top: 0;
+    right: -100vw;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: unset;
+    > nav {
+      height: 100vh;
+      width: 2.2rem;
+      :hover {
+        background: white;
+      }
+      button {
+        img {
+          transform: rotate(270deg);
+        }
+      }
+    }
+    .list-genre-nav {
+      background: white;
+      box-shadow: unset;
+      button {
+        height: 6rem;
+        width: 1.8rem;
+        position: relative;
+        background: $news-blue;
+        opacity: hidden;
+        &::before {
+          @include back-to-list-icon-edge(-1px, -1px, unset, unset);
+          border-width: 0 0.9rem 0.9rem 0;
+          border-color: transparent white transparent transparent;
+        }
+        &::after {
+          @include back-to-list-icon-edge(unset, -1px, -1px, unset);
+          border-width: 0 0 0.9rem 0.9rem;
+          border-color: transparent transparent white transparent;
+        }
+        img {
+          filter: invert(100%);
+          transform: rotate(270deg) translateY(0.1rem);
+        }
+      }
+    }
+    &-container {
+      height: calc(100vh - 16vh);
+      width: 40vw;
+      padding: 8vh 3vw;
+    }
+    &-shadow {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: #05071380;
+      backdrop-filter: blur(2px);
+      z-index: -1;
+    }
+  }
+  .sub-main-is-active {
+    right: 0px;
+    z-index: 15;
+  }
+}

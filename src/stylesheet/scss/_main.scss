@@ -1,0 +1,51 @@
+@import "./config";
+@import "./main/main-top-headlines";
+
+.main {
+  width: 100vw;
+  // padding: calc(47px + 1.3rem) 1.3rem 1.3rem 1.3rem;
+  margin-bottom: 2rem;
+  > div {
+    .headline-sp,
+    h2 {
+      @include top-headline-h2;
+      &::after {
+        @include top-headline-h2-after;
+      }
+      &:hover {
+        color: lighten($black, 30%);
+      }
+    }
+    @media (max-width: 271px) {
+      .headline-sp,
+      h2 {
+        width: min-content;
+      }
+    }
+  }
+  > div {
+    margin-top: 47px;
+    padding: 1.3rem;
+    width: calc(100vw - 2.6rem);
+  }
+}
+
+@media (min-width: 768px) {
+  .main {
+    width: 100%;
+    margin-bottom: 0;
+    overflow-x: scroll;
+    > div {
+      padding: 0;
+      margin-bottom: 55px;
+      width: clamp(1px, 100vw, 1200px);
+      overflow: hidden;
+      .headline-sp {
+        display: none;
+      }
+      h2 {
+        margin: 0 0 0rem calc(1.3rem + 1.73vw);
+      }
+    }
+  }
+}

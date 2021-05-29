@@ -1,0 +1,59 @@
+@import "./config";
+@import "./fr-loading.scss";
+@import "./onError/initial-fetch-on-error.scss";
+@import "./onError//search-too-many-request";
+@import "./log-in";
+@import "./header";
+@import "./main";
+@import "./footer.scss";
+@import "./sub-main/sub-main";
+@import "./sub-main/sub-main-news";
+@import "./sub-main/sub-main-genre";
+@import "./sub-main/sub-main-search";
+@import "./icons/read-more-button";
+@import "./icons/loading-icon";
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+// show scroll-bar
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 4px;
+  height: 2px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+body {
+  width: 100vw;
+  color: $black;
+  #root {
+    > div {
+      width: clamp(150px, 100vw, 1200px);
+      margin: 0 auto;
+    }
+  }
+  button {
+    cursor: pointer;
+    border: unset;
+    background: unset;
+    outline: unset;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    #root {
+      > div {
+        border-left: lighten($black, 60%) solid 1px;
+        border-right: lighten($black, 60%) solid 1px;
+      }
+    }
+  }
+}

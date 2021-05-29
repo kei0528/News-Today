@@ -1,0 +1,105 @@
+@import "../config";
+
+section:last-child {
+  margin-bottom: 0.5rem;
+}
+.read-more-icon {
+  width: 100%;
+  height: 2rem;
+  padding: 0;
+  position: relative;
+  background-color: #f6f6f6;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  ::after {
+    position: absolute;
+    content: "";
+    opacity: 0;
+    font-size: 0px;
+    color: white;
+  }
+  &-container {
+    height: 1.15rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    div {
+      width: 0.25rem;
+      height: 0.25rem;
+      background-color: grey;
+      border-radius: 50%;
+    }
+  }
+  &:hover {
+    position: relative;
+    background-color: $news-blue;
+    ::after {
+      content: "mehr";
+      position: absolute;
+      left: calc(50% + 1rem);
+      opacity: 1;
+      font-size: 1rem;
+      transition-delay: 0.2s;
+      transition-duration: 0.1s;
+    }
+    .read-more-icon-container {
+      transform: translateX(-1.6rem);
+      transition-duration: 0.2s;
+      ::after {
+        content: "";
+      }
+      div {
+        background-color: white;
+        &:first-child {
+          transition-delay: 0.1s;
+          transition-duration: 0.2s;
+          transform: translateY(0.4rem);
+        }
+        &:nth-child(2) {
+          transition-delay: 0.1s;
+          transition-duration: 0.2s;
+          opacity: 0;
+        }
+        &:last-child {
+          transition-delay: 0.1s;
+          transition-duration: 0.2s;
+          transform: translateY(-0.35rem);
+        }
+      }
+    }
+  }
+  &:active {
+    background-color: lighten($news-blue, 5%);
+  }
+}
+
+@media (min-width: 768px) {
+  .read-more-icon {
+    display: none;
+    width: 50px;
+    height: 50px;
+    margin: 0 1.3rem;
+    border-radius: 50%;
+    &-container {
+      width: 100%;
+      transform: rotate(90deg);
+    }
+    &:hover {
+      box-shadow: 2px 2px 4px #00000038;
+      ::after {
+        transform: translateX(-33px);
+        font-size: 0.9rem;
+        content: "more";
+      }
+      .read-more-icon-container {
+        transform: translateX(0);
+        div {
+          opacity: 0;
+        }
+      }
+    }
+  }
+}
