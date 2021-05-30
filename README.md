@@ -26,7 +26,7 @@ I noticed too late, that this API allows us to fetch news only on localhost envi
 
 ### Story about development
 
-Because I did not know much about react router at the beginning of the development, this app is developed without any routing library. Also this is one of my first project, where I used SCSS to write stylesheets. It was all learn by doing. \
+Because I did not know much about react router at the beginning of the development, this app is developed without any routing library. Also this is one of my first project, where I used SCSS to write stylesheets. It was all learn by doing.
 
 Because of the pandemic, it is necessary to collected current situation. So I decided to create a news website. I found a great Web API to collect news from different sources, that is "News API". This is a great Web API, but working with this API was the largest mistake while developing this app. Namely this API allows to fetch data only on localhost environment. I noticed that to late. \
 What I learned through developing this application was … READ DOC TO THE END!
