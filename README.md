@@ -16,15 +16,16 @@ to start the application
 Please register in [NEWS API](https://newsapi.org/) to try all features. \
 I noticed too late, that this API allows us to fetch news only on localhost enviroment. If you have registered, you can enter your API Key after starting the app.
 
-## Used Language & Library
-
+## Production
+### Production time
+04.04.21 - 01.05.21 (ca. 70h) \
+I spent most of time for planning and talk with Mr Google to solve problems. 
+### Used Language and Library
 - TypeScript
 - React
 - SCSS
 
-## About Application
-
-### Story about development
+## Story about development
 
 Because I did not know much about react router at the beginning of the development, this app is developed without any routing library. Also this is one of my first project, where I used SCSS to write stylesheets. It was all learn by doing.
 
